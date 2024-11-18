@@ -65,7 +65,7 @@ const buyNow = async() =>{
             navigate('/profile');
         }
     ).catch((err)=>{
-        alert("Order Placed!!");
+        alert("Order failed!!");
     })
 }
 
